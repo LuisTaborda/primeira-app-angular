@@ -1,0 +1,10 @@
+<div *ngIf="student">
+    <img src={{student?.image}} alt="">
+    <h4> <a href="#" (click)="clicked()">Student: {{student?.name}}</a></h4>
+    
+    <p *ngIf="student?.isJedi">
+        Jedi Temple: {{student?.temple}}
+    </p>    
+</div>
+
+<p class="objeto-vazio" *ngIf="!student">Ocorreu um erro ao carregar o estudante</p>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jedi-academy"
+    }
+  },
+  "defaultProject": "jedi-academy",
+  "cli": {
+    "analytics": "f9b739c3-ccc8-4ac1-bfc8-8266d8da5a06"
+  }
 }
